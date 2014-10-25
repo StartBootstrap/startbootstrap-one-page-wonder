@@ -1,2 +1,2 @@
-startbootstrap-one-page-wonder
-==============================
+Start Bootstrap - One Page Wonder
+=========
