@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="windows-1252" ?>
+<xliff version="1.1" xml:lang='en'>
+ <file source-language='en' target-language='fr' datatype="winres"
+  original="Sample1.rc">
+  <header>
+   <skl><external-file href="Sample1.rc.skl"/></skl>
+  </header>
+  <body>
+   <group restype="dialog" resname="IDD_DIALOG1">
+    <trans-unit id="1" restype="caption">
+     <source>Title</source>
+    </trans-unit>
+    <trans-unit id="2" restype="label" resname="IDC_STATIC">
+     <source>&amp;Path:</source>
+    </trans-unit>
+    <trans-unit id="3" restype="check" resname="IDC_CHECK1">
+     <source>&amp;Validate</source>
+    </trans-unit>
+    <trans-unit id="4" restype="button" resname="IDOK">
+     <source>OK</source>
+    </trans-unit>
+    <trans-unit id="5" restype="button" resname="IDCANCEL">
+     <source>Cancel</source>
+    </trans-unit>
+   </group>
+  </body>
+ </file>
+</xliff>
