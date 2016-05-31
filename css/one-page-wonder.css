@@ -5,7 +5,7 @@
  */
 
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .header-image {
@@ -37,6 +37,11 @@ body {
 
 .featurette-divider {
     margin: 80px 0;
+}
+
+.featurette-divider:target { /*navbar shouldn't overlap with featurette when using an anchor link to jump there */
+  padding-top: 50px; 
+  margin-top: -50px;
 }
 
 .featurette {
