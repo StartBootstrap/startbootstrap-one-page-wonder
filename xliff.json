@@ -1,0 +1,1013 @@
+{
+    "address_carousel": {
+        "add_button_desc": "Add a new address stuff",
+        "edit_button": "Edit",
+        "edit_button_desc": "Edit this address",
+        "header": "My Addresses",
+        "header_2": "My Address Book",
+        "no_addresses": "Add an address to your account.",
+        "addAddress": {
+            "successMessage": "Address successfully saved."
+        },
+        "deleteAddress": {
+            "successMessage": "Address successfully deleted."
+        },
+        "errors": {
+            "invalid_shipping_country": "This merchant does not deliver to the country of this address."
+        },
+        "warnings": {
+            "invalid_billing_country": "The country of this billing address is not accepted by this merchant."
+        }
+    },
+    "address_crud": {
+        "field_label": {
+            "first_name": "First Name",
+            "last_name": "Last Name",
+            "address_line1": "Address Line 1",
+            "address_line1_BR": "Address",
+            "address_line1_street": "Street",
+            "address_line1_ariaLabel": "AutoComplete. Edit and use up down arrow keys to navigate",
+            "address_line2": "Address Line 2 (optional)",
+            "address_line2_house": "House/apartment number",
+            "address_line2_BR": "Neighborhood",
+            "address_line3": "Suburb (optional)",
+            "address_line3_landmark": "Landmark",
+            "address_line3_BR": "Point of Reference",
+            "address_number": "Number",
+            "address_complement": "Complement (optional)",
+            "address_city": "City",
+            "address_city_SG": "Singapore",
+            "address_city_district": "District",
+            "address_city_town": "City / Town",
+            "address_city_town_city": "Town / City",
+            "address_county": "County",
+            "state_province_code": "State/Province",
+            "state_province_code_state": "State",
+            "state_province_code_province": "Province",
+            "postal_code_postcode": "Postcode",
+            "postal_code_postcode_optional": "Postcode (optional)",
+            "postal_code_zipcode": "Zip Code",
+            "postal_code_cep": "CEP",
+            "postal_code_pincode": "Pincode",
+            "postal_code": "Postal Code",
+            "postal_code_US": "Zip Code",
+            "postal_code_CA": "Postal Code",
+            "postal_code_AU": "Postcode",
+            "postal_code_NZ": "Postal Code",
+            "postal_code_EN": "Postal Code",
+            "postal_code_BR": "CEP",
+            "postal_code_CN": "Postal Code",
+            "postal_code_CO": "Postal Code",
+            "postal_code_CL": "Postal Code",
+            "postal_code_AR": "Postal Code",
+            "postal_code_MX": "Postal Code",
+            "postal_code_PE": "Postal Code","postal_code_JP": "Postal Code JP",
+            "country_code": "Country",
+            "address_phone": "Phone Number",
+            "address_phone_US": "Phone Number",
+            "address_phone_CA": "Phone Number",
+            "address_phone_AU": "Mobile Number",
+            "address_phone_NZ": "Phone Number",
+            "address_phone_EN": "Phone Number",
+            "address_phone_BR": "Phone Number",
+            "address_phone_CN": "Phone Number",
+            "address_phone_HK": "Phone Number",
+            "address_phone_CO": "Phone Number",
+            "address_phone_CL": "Phone Number",
+            "address_phone_AR": "Phone Number",
+            "address_phone_MX": "Phone Number",
+            "address_phone_PE": "Phone Number",
+            "pref_address": "Make this my preferred address",
+            "pref_delivery_address": "Make my preferred delivery address",
+            "optional": "(optional)",
+            "email": "Email Address"
+        },
+        "button_label": {
+            "cancel": "Cancel",
+            "add_new": "Add New Address",
+            "update": "Update",
+            "delete": "Delete",
+            "use_address": "Use This Address",
+            "use_address_recommended": "Use The Recommended Address",
+            "use_address_entered": "Use The Entered Address",
+            "edit": "Edit",
+            "add": "Add",
+            "use_recommended": "Use Recommended Address",
+            "use_entered": "Use Address Entered"
+        },
+        "heading": {
+            "h1": {
+                "add_new": "Add Address",
+                "update_delete": "Edit Address",
+                "verify_address": "Verify Your Address",
+                "address_notfound": "Address Not Found",
+                "update_delete_desc": "Visa Checkout, edit your address"
+            },
+            "h2": {
+                "you_entered": "Address You Entered",
+                "recommended_address": "Recommended Address",
+                "entered_address": "Address You Entered"
+            }
+        },
+        "page": {
+            "address_notfound": {
+                "description": {
+                    "long": "We couldn't verify the address you entered with the postal service. Would you like to add it anyway?"
+                }
+            },
+            "suggested_address": {
+                "description": {
+                    "long": "The address you've entered does not match postal service records. We've highlighted our suggestions:"
+                }
+            }
+        },
+        "confirmation": {
+            "delete_address": "Are you sure you want to permanently delete this address?"
+        },
+        "billing_address": {
+            "help_content": "This is the address that is associated with your credit/debit card on your bank statement."
+        },
+        "helper_text": {
+            "address_line1_number": "Number and street name",
+            "address_line1_street": "Street, number, floor, door, etc.",
+            "address_line2": "E.g. apartment, suite, floor, etc.",
+            "address_line2_locality": "Locality",
+            "address_line2_apartment": "Apartment, building, floor, etc.",
+            "county": "Select or enter a county",
+            "state_province_code": "",
+            "state_province_code_eg": "E.g. CA, WA",
+            "state_province_code_2_3_letters": "2-3 Letters",
+            "state_province_code_select": "Select or enter a province",
+            "postal_code_dublin": "Dublin Area or Eircode",
+            "postal_code_poland_mask": "XX-XXX",
+            "postal_code_india_mask": "XXXXXX",
+            "state_province_code_US": "",
+            "email": "address@example.com"
+        },
+        "errors": {
+            "add_new_address": {
+                "invalid_address": "Please enter valid address information.",
+                "validation_service": "Sorry, we couldn't verify the address you entered with the postal service. Would you like to save it anyway?",
+                "unable_to_add": "Sorry, we're unable to process your request at this time. We apologize for the inconvenience."
+            },
+            "update_address": {
+                "invalid_address": "Please enter valid address information.",
+                "not_found": "We're unable to locate your address. Please enter valid address information.",
+                "validation_service": "Sorry, we couldn't verify the address you entered with the postal service. Would you like to save it anyway?",
+                "unable_to_add": "Sorry, we are unable to process your request at this time. We apologize for the inconvenience. "
+            },
+            "delete_address": {
+                "not_found": "We're unable to locate your address. Please enter valid address information.",
+                "unable_to_add": "Sorry, we're unable to process your request at this time. We apologize for the inconvenience."
+            }
+        },
+        "phone_input": {
+            "label": "Phone Number",
+            "label_invalid": "Invalid Phone Number",
+            "clear": "Use a different phone number",
+            "filter_placeholder": "Select or enter a country",
+            "filter_invalid_label": "Invalid country",
+            "filter_invalid_description": "No countries found that match what you've entered. Please change your entry.",
+            "dropdown": "Country code selector, __selectedCountryName__ country code +__selectedCountryDialCode__. Collapsed menu item.",
+            "country": "__selectedCountryName__, country code +__selectedCountryDialCode__",
+            "x_to_y_digits": "__min__ to __max__ digits"
+        },
+        "delete_address_modal": {
+            "delete_confirmation": "You're about to delete __line1__ permanently from Visa Checkout. Are you sure?",
+            "title": "Just a Sec...",
+            "delete": "Yes, delete"
+        }
+    },
+    "localizedCountries": "US,CA,AU,NZ",
+    "test": {
+        "field_label": {
+            "card_number": "Card Number"
+        },
+        "heading": {
+            "h1": {
+                "billing": "Billing Address",
+                "shipping": "Shipping Address"
+            }
+        },
+        "button_label": {
+            "add_card": "Add Card"
+        },
+        "errors": {
+            "add_new_card": {
+                "invalid_card": "Please enter valid card information."
+            }
+        }
+    },
+    "challenge": {
+        "confirm": "Confirm your identity",
+        "to_confirm": "To confirm your identity, please answer the following question:",
+        "continue_button": "Continue",
+        "challenge": "Confirm your identity"
+    },
+    "challenge_fail": {
+        "not_confirm": "Unable to confirm identity",
+        "not_verify": "We apologize for the inconvenience, but we are unable to verify your identity.",
+        "dif_user_button": "Sign In as a Different User",
+        "all_store": "See all participating stores.",
+        "visa_intro": "Visa Checkout is your fast lane through the online shopping experience.",
+        "fail_shop_button": "Where to Shop",
+        "incorrect_answer": "Sorry, the answer you provided was incorrect. Please try again.",
+        "continue_checkout": "Do you still want to continue with Visa Checkout?",
+        "create_account_button": "Continue as New Customer"
+    },
+    "bundle_pi": {
+        "add": "ADD",
+        "add_a_card": "Add a card",
+        "add_button_desc": "Add a new address",
+        "add_button_text": "Add Billing Address",
+        "add_card": "Add Card",
+        "back": "Back",
+        "billing_address": "Billing Address",
+        "cancel": "Cancel",
+        "cancel_button_desc": "Cancel editing card",
+        "card_art_desc": "Find your %s digit security code on the back of your card image",
+        "card_details": "Card Details",
+        "card_failed_threeds": "Your financial institution was unable to authenticate this card.",
+        "card_expired": "This card has expired.",
+        "card_list": "Card List",
+        "card_nickname": "Card Nickname (optional)",
+        "card_nickName": "My %s %s Card",
+        "card_not_verified": "Additional information is needed before you can use this card.",
+        "card_number": "Card Number",
+        "card_number_placeholder": "15 to 16 digits",
+        "change": "CHANGE",
+        "confirm_billing_address": "Confirm Billing Address",
+        "continue": "Continue",
+        "delete": "Delete",
+        "delete_button_desc": "Delete card",
+        "delete_card": "Delete Card",
+        "delete_card_confirmation": "Are you sure you want to permanently delete this card?",
+        "edit": "EDIT",
+        "edit_button_desc": "Edit this Address",
+        "edit_button_text": "Edit Billing Address",
+        "edit_card": "Edit Card",
+        "expiration_date": "Expiration Date",
+        "expired": "Expired",
+        "expires": "Expires",
+        "expiresHelperText": "MMYY",
+        "funding_option": "Select funding option",
+        "generated_card_nickname": "My __brand__ __type__ Card",
+        "gxo_add_card_next_message": "<strong>Next: </strong>Review your information. <br/> You'll be able to make any necessary changes there.",
+        "make_this_my_preferred_card": "Preferred Card",
+        "my_preferred_card": "My preferred card",
+        "nickname_combo_credit_default": "Visa Credit",
+        "nickname_combo_electron_debit_default": "Visa Electron (debit)",
+        "nickname_combo_visa_debit_default": "Visa",
+        "nickname_combo_visa_debit_select_force_selection": "Select how to fund your combo card in order to continue.",
+        "no_cc_by_brand": "This merchant does not accept __cardBrand____cardType__.",
+        "no_thanks": "No Thanks",
+        "not_available": "Not available",
+        "or": "or",
+        "security_code": "Security Code",
+        "security_code_len": "three",
+        "security_code_len_amex": "four",
+        "submit": "Submit",
+        "to_continue": " to continue.",
+        "update_button_desc": "Update card",
+        "update_card": "Update",
+        "use_delivery_address": "Use delivery address",
+        "will_expire": "Expires by",
+        "you_must_use": "You must use ",
+        "a11y": {
+            "card_voice_over": "__nickName__. Last four digits: __lastFourDigits__. Expiration date: __expiry__. Billing address: __ba__.",
+            "close_warning": "Close error message panel.",
+            "open_warning": "Card not available. Open error message panel."
+        },
+        "card_brand_label": {
+            "visa": "Visa",
+            "mastercard": "MasterCard",
+            "discover": "Discover",
+            "amex": "American Express",
+            "electron": "Visa Electron",
+            "elo": "Elo"
+        },
+        "card_indicator": {
+            "generic": "Card brand image",
+            "visa": "This is a Visa card",
+            "mastercard": "This is a MasterCard",
+            "discover": "This is a Discover card",
+            "amex": "This is an American Express card"
+        },
+        "delete_card_modal": {
+            "are_you_sure": "Just a Sec...",
+            "could_not_delete": "Sorry, we experienced a technical issue and couldn't delete this card. Please try again or cancel to continue your checkout.",
+            "delete": "Yes, delete",
+            "delete_confirmation": "Are you sure you want to remove this card?",
+            "deleted_successfully": "Your card was deleted successfully.",
+            "message": "You're about to delete your card ending in ...%s permanently from Visa Checkout. Are you sure?"
+        },
+        "funding_option_type": {
+            "credit": "Credit",
+            "electron": "Electron (debit)"
+        },
+        "helper_text": {
+            "card_nickname": "E.g., My Points Card"
+        },
+        "placeholder": {
+            "expiry": "MM / YY"
+        },
+        "mask": {
+            "expiry": "MM / YY"
+        }
+    },
+    "errors": {
+        "not_accepted": "Not accepted.",
+        "not_accepted_by_merchant": "This merchant does not accept this card.",
+        "addpi": {
+            "account_locked": "Sorry, for your protection and to prevent unauthorized access, we've temporarily locked your account. Try again later, or create a new account.",
+            "already_added": "Oops. Looks like this card has already been added. Try adding another card.",
+            "avs_failed": "Sorry, one or more of your entries seems to be invalid at this time. Please try entering a different address.",
+            "avs_cvs_failed": "Sorry, one or more of your entries seems to be invalid at this time. Please correct or try entering a different card and address.",
+            "cvs_failed": "Sorry, one or more of your entries seems to be invalid at this time. Please correct or try entering a different card.",
+            "internal_error": "Sorry, we're unable to process your request at this time. Please try using another card.",
+            "invalid_request": "Sorry, we're unable to process your request. Please try again.",
+            "invalid_card_number": "Sorry, your card number seems to be invalid at this time. Please correct or try entering a different card.",
+            "max_attempts": "You have exceeded the maximum allowed attempts to add or edit a payment method. Please try again after 24 hours.",
+            "no_match_on_record": "The information you entered does not match the information on record",
+            "not_found": "Sorry, we're unable to locate that card. Please try adding another card.",
+            "not_permitted_country": "Sorry, your card number cannot be accepted at this time. Please try entering a different card.",
+            "risk_check": "Your payment information is incorrect. Please try again.",
+            "unauthorized": "Sorry, we're unable to process your request at this time. Please verify that your information is correct and try again."
+        },
+        "updatepi": {
+            "cannot_update": "Sorry, we're unable to update your information at this time. Please try using another card.",
+            "internal_error": "Sorry, we're unable to process your request at this time. Try using another card.",
+            "invalid_request": "Sorry, we're unable to process your request at this time. Please try using another card.",
+            "max_attempts": "You have exceeded the maximum allowed attempts to add or edit a payment method. Please try again after 24 hours.",
+            "no_match_on_record": "The information you entered does not match the information on record",
+            "not_found": "Sorry, we're unable to locate that card. Please try adding another card.",
+            "risk_check": "Your payment information is incorrect. Please try again.",
+            "unauthorized": "Sorry, we're unable to process your request at this time. Please try using another card."
+        },
+        "genericErrorMessage": "Invalid __fieldLabel__",
+        "genericErrorMessage_page": "Please enter a valid __fieldLabel__ to continue.",
+        "address": {
+            "address_city_town": "Invalid City / Town",
+            "address_city_town_page": "Please enter a valid city/town to continue.",
+            "address_town_city": "Invalid Town / City",
+            "address_town_city_page": "Please enter a valid town/city to continue.",
+            "county": "Invalid County",
+            "county_page": "Please enter or select a county to continue.",
+            "postal_code_postcode": "Invalid Postcode",
+            "postal_code_postcode_page": "Please enter a valid postcode to continue.",
+            "postal_code_pincode": "Invalid Pincode",
+            "postal_code_pincode_page": "Please enter a valid pincode to continue.",
+            "address_line1_street": "Invalid Street",
+            "address_line1_street_page": "Please enter a valid street to continue.",
+            "state_province_code_province": "Invalid Province",
+            "state_province_code_province_page": "Please enter or select a province to continue.",
+            "address_error": "Please enter a valid address to continue.",
+            "phone_error": "Please update with a valid phone number to continue.",
+            "email_error": "Please update with a valid email address to continue.",
+            "landmark": "Invalid Landmark",
+            "landmark_page": "Please enter a valid landmark."
+        },
+        "createAccountTaxIdCPFValidation": "Invalid CPF",
+        "createAccountTaxIdCPFValidation_page": "Please enter a valid CPF to continue.",
+        "change_password_errors": {
+            "four_zero_six": "The old password is incorrect. Please try again.",
+            "four_one_seven": "Please choose another password, do not use personal information or the previous password.",
+            "general_error": " Your password could not be updated.",
+            "validation_error": "Please choose another password.",
+            "enter_old_password": "Enter your old password.",
+            "enter_new_password": "Enter your password.",
+            "password_invalid": "Please choose another password that meets the minimum required"
+        },
+        "login": {
+            "locked": "Sorry, for your protection, your account has been locked. You may attempt to log back in by clicking “Forgot?” or try again later.",
+            "disabled": "Sorry, we’re unable to process your request at this time. For your protection, your account has been temporarily disabled. Please contact Customer Support.",
+            "incorrect": "You’ve entered an incorrect username or password.",
+            "incorrect_2": "You’ve entered an incorrect username or password.  If you've forgotten your password, click “Forgot?”.",
+            "unavailable": "Sorry, we’re unable to process  your request at this time. Try again later or contact Customer Support.",
+            "profileNaN": "You’ve entered an incorrect username or password.",
+            "deny": "You have exceeded the maximum allowed attempts. Please try again after a few hours or contact Customer Support."
+        },
+        "user_lookup": {
+            "account_already_exists": "Account already exists with this email address",
+            "account_already_exists_page": "An account already exists with the email address you provided. In order to continue, you can either sign in to your account, reset your password or use a different email address."
+        },
+        "password": {
+            "tooShort": "Invalid password",
+            "tooLong": "Invalid password",
+            "hasUnsupported": "Invalid password",
+            "hasConsecutiveChars": "Invalid password",
+            "hasSpaces": "Invalid password",
+            "hasUserName": "Invalid password",
+            "sameAsPrevious": "Invalid password",
+            "tooShort_page": "Sorry, a minimum of 6 characters is required for a password.",
+            "tooLong_page": "Your password can’t contain more than 32 characters.",
+            "hasUnsupported_page": "Sorry, we only support ! @ # $ % & * ? for a password.",
+            "hasConsecutiveChars_page": "Sorry, you can't enter 3 consecutive identical characters for a password.",
+            "hasSpaces_page": "Sorry, your password cannot contain spaces.",
+            "hasUserName_page": "Sorry, your password cannot contain a portion of your email or mobile number.",
+            "sameAsPrevious_page": "Your new password can't be the same as your previous one. Please enter another password."
+        },
+        "models": {
+            "payment_instrument": {
+                "attributes": {
+                    "accountNumber": {
+                        "invalid": "Invalid __type__ number",
+                        "invalidDefault": "Invalid card number",
+                        "invalidVisa": "Invalid Visa number",
+                        "invalidElo": "Invalid Elo card number",
+                        "invalidElectron": "Invalid Electron number",
+                        "invalidMasterCard": "Invalid MasterCard number",
+                        "invalidAmex": "Invalid American Express number",
+                        "invalidDiscover": "Invalid Discover card number",
+                        "invalid_page": "Sorry, the number you entered is not recognized as a valid __type__ number.",
+                        "invalidDefault_page": "Sorry, the number you entered is not recognized as a valid card number.",
+                        "invalidVisa_page": "Sorry, the number you entered is not recognized as a valid Visa number.",
+                        "invalidElo_page": "Sorry, the number you entered is not recognized as a valid Elo card number.",
+                        "invalidElectron_page": "Sorry, the number you entered is not recognized as a valid Electron number.",
+                        "invalidMasterCard_page": "Sorry, the second number you entered is not recognized as a valid MasterCard number.",
+                        "invalidAmex_page": "Sorry, the second number you entered is not recognized as a valid American Express number.",
+                        "invalidDiscover_page": "Sorry, the numbers you entered are not recognized as valid Discover card numbers.",
+                        "unaccepted": "Sorry, this merchant does not accept this card."
+                    },
+                    "expirationDate": {
+                        "blank": "Invalid Date",
+                        "invalid": "Invalid Date",
+                        "invalidPast": "Invalid Date",
+                        "invalidMonth": "Invalid Date",
+                        "invalidMonth_page": "Sorry, you've entered a month that does not exist.",
+                        "invalidPast_page": "Sorry, you've entered a date that is in the past.",
+                        "blank_page": "Please enter a valid date to continue.",
+                        "invalid_page": "Please enter a valid date to continue."
+                    }
+                }
+            }
+        }
+    },
+    "carousel": {
+        "billing_address": {
+            "selected_is": "The selected billing address is",
+            "nav_go_to_previous": "Previous billing address",
+            "nav_go_to_next": "Next billing address",
+            "nav_active": "You are on billing address number",
+            "nav_go_to_first": "Go to first billing address",
+            "nav_go_to_last": "Go to last billing address",
+            "pag_go_to_item_number": "Go to billing address number",
+            "unaccepted": "The country of this billing address is not accepted by this merchant."
+        },
+        "shipping_address": {
+            "nav_go_to_first": "Go to first billing address",
+            "nav_go_to_last": "Go to last billing address",
+            "nav_go_to_next": "Go to next billing address",
+            "nav_go_to_previous": "Go to previous billing address",
+            "nav_active": "Currently selected address",
+            "pag_go_to_item_number": "Go to address"
+        },
+        "payment_instrument": {
+            "selected_is": "The selected payment instrument is",
+            "nav_go_to_previous": "Go to previous payment instrument number",
+            "nav_go_to_next": "Go to next payment instrument number",
+            "nav_go_to_first": "Go to first payment instrument",
+            "nav_go_to_last": "Go to last payment instrument",
+            "nav_active": "You are on payment instrument number",
+            "pag_go_to_item_number": "Go to payment instrument number",
+            "expires": "Exp.",
+            "about_to_expire": "Expires",
+            "expired": "Expired",
+            "nickname": "My %s %s Card"
+        },
+        "of": "of",
+        "payment-instrument": {
+            "nav_go_to_first": "Go to first card",
+            "nav_go_to_last": "Go to last card",
+            "nav_go_to_next": "Go to next card",
+            "nav_go_to_previous": "Go to previous card",
+            "nav_active": "Currently selected card",
+            "pag_go_to_item_number": "Go to card"
+        }
+    },
+    "bundle_session": {
+        "warning_modal": {
+            "header": "Your session is about to expire.",
+            "close_button": "Close",
+            "continue_session_button": "Continue Session",
+            "subtext": "Select how you'd like to proceed below.",
+            "about_to_expire": "Your session is about to expire.",
+            "click_continue": "Click continue if you need more time",
+            "continue_button": "Continue"
+        },
+        "expired_page": {
+            "header": "Your session has expired",
+            "subtext": "For your security, your session has expired due to inactivity. To continue, please sign in to your Visa Checkout account again to start a new session.",
+            "sign_in_button": "Go to Sign In",
+            "continue_button": "Continue",
+            "close_button": "Close",
+            "title": "Session Expired",
+            "message": "For security reasons, your session has timed out due to inactivity.",
+            "return_to_signin": "Click to Return to Sign In"
+        }
+    },
+    "bundle_signin": {
+        "agree": "I agree.",
+        "agree_or_disagree": "Choose whether you agree or disagree:",
+        "continue": "Continue",
+        "didnt_receive": "Didn't receive the email?",
+        "email": "Email Address",
+        "email_or_phone": "Email or Mobile Number",
+        "forgot": "Forgot?",
+        "forgot_password": "Forgot your password?",
+        "forgot_title": "Forgot your password link",
+        "forgot_title_improved": "Forgot your password",
+        "login_heading": "Sign in.",
+        "no_worries": "No worries! We’ll send instructions on how to reset your Visa Checkout account password",
+        "not_agree": "I do not agree.",
+        "on_its_way": "Your email is on its way.",
+        "password": "Password",
+        "policies_updated": "Our Policies have been updated.",
+        "remember_me": "Remember me on this device",
+        "remembered_login_heading": "Welcome back.",
+        "resend_instructions": "Re-send Instructions",
+        "send_instructions": "Send Instructions",
+        "sign_in": "Sign In",
+        "to_reset": "To reset your password, simply follow the instructions in the email.",
+        "user_name": "Username",
+        "forgotPassword": {
+            "emailsentAgain": "Another email has been sent"
+        },
+        "tac": {
+            "agree": "I agree",
+            "agree_extended": "__AGREE__ to the updated __TERMS__ and __PRIVACY__.",
+            "continue": "Continue",
+            "disagree": "I do not agree",
+            "disagree_extended": "__NOTAGREE__ and I will be signed out of my account.",
+            "header": "We've updated our terms and policies.",
+            "privacy_link": "Privacy Policy",
+            "terms_link": "Terms of Service",
+            "content": {
+                "p_1": "We are constantly improving the Visa Checkout experience. To continue to enjoy the benefits of Visa Checkout, a safe, simple and easy way to check out online, you must accept the updated __TERMS__ and __PRIVACY__.",
+                "p_2": "Please take a moment to review the __HIGHLIGHTS__.",
+                "p_3": "Please contact us if there's anything we can do to help or if you have questions about the updates. You can get in touch with us by sending an email to __SUPPORTEMAIL__. Our Visa Checkout support center is open 24 hours, 365 days a year.",
+                "p_4": "If you would like to close your account follow the instructions in the __SUPPORT__ page.",
+                "p_5": "Check the \"I agree\" box below to continue using Visa Checkout. Thank you for being a part of our global service."
+            },
+            "form": {
+                "agree": "I agree",
+                "agree_extended": "__AGREE__ to the updated __TERMS__ and __PRIVACY__.",
+                "continue": "Continue",
+                "disagree": "I do not agree",
+                "disagree_extended": "__NOTAGREE__ and I will be signed out of my account."
+            },
+            "links": {
+                "highlights": "highlights of the updates",
+                "privacy_link": "Privacy Policy",
+                "support_page": "Support",
+                "terms_link": "Terms of Service"
+            }
+        },
+        "forgot_password_title": "Reset your password",
+        "no_worries_text": "Just enter the email address associated with your account, and we'll send you a code to reset your password.",
+        "forgot_send_code": "Send Code",
+        "forgot_cancel": "Cancel",
+        "profile_not_found": "Sorry, we weren't able to find this email address in our system. Please try again.",
+        "reset_code_sent": "Password reset code sent to __name__",
+        "reset_code_sent_again": "Another email was sent to __name__",
+        "reset_code_title": "Enter password reset code",
+        "reset_code_text": "You should receive your code via email shortly. Didn't receive our email?",
+        "reset_code_resend": "Resend",
+        "reset_code_label": "Password Reset Code",
+        "reset_code_submit": "Submit",
+        "reset_code_confirmed": "The password reset code has been confirmed!",
+        "max_attempts_title": "Reached maximum attempts",
+        "max_attempts_text": "You've reached the maximum number of attempts with your current reset code. To continue, enter your email address to receive a new code. You may also select another option below. ",
+        "max_attempts_submit": "Send New Code",
+        "max_attempts_or": "- or -",
+        "max_attempts_signin": "Sign In as a Different User",
+        "max_attempts_continue": "Continue as a New Customer",
+        "locked_title": "Could not confirm code",
+        "locked_text": "Sorry, we weren't able to confirm your password reset code.  For security purposes, we've temporarily locked your device. Please try again later.",
+        "locked_submit": "Close",
+        "new_pass_title": "Create a new password",
+        "new_pass_text": "Once you've successfully created your password, you'll be able to continue with this purchase.",
+        "new_pass_label": "Create Password",
+        "new_pass_submit": "Submit",
+        "new_pass_same": "Sorry, your new password can't be the same as your previous one.",
+        "new_pass_success": "Your password has been successfully updated!",
+        "error": {
+            "otpTokenFailed": "Sorry, the code you entered is incorrect."
+        }
+    },
+    "collection_carousel": {
+        "header": "My Cards",
+        "add_button": "Add",
+        "edit_button": "Edit",
+        "addCard": {
+            "successMessage": "Card successfully saved."
+        },
+        "no_cards": "Add a card to get the full benefits of Visa Checkout."
+    },
+    "footer": {
+        "Terms": "Terms",
+        "Privacy": "Privacy",
+        "Support": "Support",
+        "legal": {
+            "native": {
+                "disclaimerFooter": "Visa Checkout may share information about how you use this card in Visa Checkout with the financial institution that issued the card for customer service, usage analysis, fraud prevention and marketing related to Visa Checkout."
+            }
+        },
+        "adPreference": "Adjust ad preferences",
+        "toggleLanguage": "Language selector toggle to ",
+        "languageSelector": "Country and Language Selector"
+    },
+    "form_validate": {
+        "error": {
+            "emptyForm": "Please enter the required information to continue",
+            "unfilledForm": "Please enter your information to continue.",
+            "unfilledForm_inorder": "Please enter your information in order to continue.",
+            "filledForm": "You have one or more errors below. Please fix them to continue",
+            "errorForm": "You have one or more errors. Please fix them to continue",
+            "errorForm_punctuation": "You have one or more errors. Please fix them to continue.",
+            "generic": "We're experiencing technical difficulties. Please try again."
+        }
+    },
+    "header": {
+        "visaCheckoutLogoAltText": "Visa Checkout Logo",
+        "visaCheckoutLogoAltTextDE": "Visa Checkout Logo link to VisaCheckout.com",
+        "rxoCloseButton": "Close Visa Checkout",
+        "backButton": "Back"
+    },
+    "metro": {
+        "error": {
+            "emptyForm": "Please enter your information in order to continue.",
+            "filledForm": "You have one or more errors. Please fix them to continue.",
+            "generic": "We're experiencing technical difficulties. Please try again."
+        },
+        "signin": {
+            "emptyForm": "Please enter your sign-in credentials."
+        }
+    },
+    "rxo": {
+        "address": {
+            "account_already_exists_error": "Account already exists with this email address",
+            "account_already_exists_error_page": "An account already exists with the email address you provided. In order to continue, you can either sign in to your account, reset your password or use a different email address.",
+            "update_all": "Update all Card Addresses?",
+            "update_all_info": "The address you're updating is also a billing address to one or more cards. Please confirm.",
+            "previous": "Previous Address",
+            "updated": "Updated Address",
+            "card_will_be_updated": "Card that will be updated",
+            "cards_will_be_updated": "cards will be updated",
+            "update_all_card": "Yes, Update All Cards",
+            "update_only_address": "No, Update Only This Address",
+            "address_suggestions": "Address suggestions are available, use up and down arrows to navigate"
+        },
+        "bundle_pi": {
+            "billing_address": "Billing Address",
+            "card_add_success": "Your card was added successfully",
+            "card_expired": "This card has expired. Please update to continue.",
+            "card_not_verified": "Additional information is needed before you can use this card.",
+            "card_save_success": "Your card was saved successfully",
+            "card_update_success": "Your card was updated successfully",
+            "change": "Change",
+            "close_warning": "Close error message panel.",
+            "delete_last_content": "Unfortunately, you'll need to add another credit or debit card to continue with this purchase.",
+            "delete_last_header": "Last Card Deleted",
+            "delete_last_button": "Add Card",
+            "delivery_address_not_acceptable": "Not acceptable",
+            "edit_card_title": "Edit Card",
+            "exp": "Expires",
+            "will_exp": "Expires by",
+            "has_exp": "Expired",
+            "invalid_billing_country": "This merchant does not accept billing addresses that are located in the country of your delivery address.",
+            "make_preferred_card": "Make my preferred card",
+            "unaccepted": "Not Accepted",
+            "not_available": "Not available",
+            "open_warning": "Card not available. Open error message panel.",
+            "preferred_card_msg": "My preferred card",
+            "change_button_desc": "Change your $1 card ending in $2",
+            "card_img_alt_text": "Card Image",
+            "card_nickname": {
+                "my": "My",
+                "card": "Card"
+            },
+            "a11y": {
+                "add_page_title": "Visa Checkout, add your card details",
+                "edit_page_title": "Visa Checkout, edit your card details"
+            }
+        },
+        "address_add": {
+            "heading": "Add Address",
+            "heading_guest": "Delivery Address",
+            "primary_button": "Add Address",
+            "continue_button": "Continue",
+            "secondary_button": "Cancel",
+            "primary_button_alt": "Add Address button",
+            "secondary_button_alt": "Cancel editing address button",
+            "preferred_address": "My preferred delivery address",
+            "a11y": {
+                "page_title": "Visa Checkout, add your address details"
+            }
+        },
+        "address_update_delete": {
+            "cancel_button_desc": "Cancel editing address",
+            "update_button_desc": "Update address",
+            "address_add_success": "Your address was added successfully",
+            "address_update_success": "Your address was updated successfully",
+            "address_save_success": "Your address was saved successfully",
+            "address_delete_success": "Your address was deleted successfully",
+            "delete_last_header": "Last Address Deleted",
+            "delete_last_content": "Unfortunately, you'll need to add another address to continue with this purchase.",
+            "delete_last_button": "Add Address",
+            "delete_button_desc": "Delete this address",
+            "a11y": {
+                "page_title": "Visa Checkout, edit your address details"
+            }
+        },
+        "contact_information": {
+            "heading": "Contact Information",
+            "subheading": "Merchant may use this for order-related questions."
+        },
+        "buttons": {
+            "continue_as_new": "Continue as a New Customer",
+            "signin": "Sign In"
+        },
+        "inputs": {
+            "phone_input": {
+                "label": "Phone Number",
+                "label_invalid": "Invalid Phone Number",
+                "clear": "Use a different phone number",
+                "filter_placeholder": "Select or enter a country",
+                "filter_invalid_label": "Invalid country",
+                "filter_invalid_description": "No countries found that match what you've entered. Please change your entry.",
+                "dropdown": "Country code selector, __selectedCountryName__ country code +__selectedCountryDialCode__. Collapsed menu item.",
+                "country": "__selectedCountryName__, country code +__selectedCountryDialCode__"
+            }
+        },
+        "thank_you": {
+            "title": "Congrats!",
+            "message": "Your Visa Checkout account was successfully created.",
+            "redirect_continue_message": "You'll now continue to %s in",
+            "redirect_count": "__count__ second.",
+            "redirect_count_plural": "__count__ seconds.",
+            "redirect_link": "Just continue to merchant",
+            "alt_confirmation": "Confirmation icon image",
+            "a11y": {
+                "page_title": "Visa Checkout, Congrats, Your Visa Checkout account was successfully created"
+            }
+        },
+        "welcome_screen": {
+            "merchant_message_merchant": "__merchantName__ now offers",
+            "merchant_message_visa": "Visa Checkout",
+            "welcome_text_expanded": "Here's why it's the easier way to pay online: You'll create an account only once and then speed through checkout with a single sign-in anytime you see the Visa Checkout button.",
+            "welcome_text_left": "Welcome to the easier way to pay online.",
+            "welcome_text_no_fees": "No fees. ",
+            "welcome_text_right": "Any major card accepted.",
+            "tell_me_more_text": "Tell me more",
+            "signin_button_text": "Sign In",
+            "signin_button_text_2": "Existing Customer",
+            "continue_button_text": "Continue as New Customer",
+            "continue_button_text_2": "New Customer",
+            "logo_text": "logo",
+            "a11y": {
+                "page_title": "Visa Checkout, Welcome to the easier way to pay online",
+                "tell_me_more": "Tell me more about Visa Checkout",
+                "signin_button": "Sign in to Visa Checkout",
+                "continue_button": "Continue using Visa Checkout as a New Customer"
+            }
+        },
+        "signin": {
+            "visa": "Visa Checkout button example",
+            "new": "New to Visa Checkout? ",
+            "continue": "Continue as new customer",
+            "required": "A Visa Checkout account is required to continue",
+            "welcomeBack": "Hi there. Sign in to your Visa Checkout account to get started.",
+            "empty_form": "Please enter your sign-in credentials.",
+            "incorrect_signin": "You've entered incorrect sign-in credentials.",
+            "did_you": "Did you ",
+            "forget_password": "forget your password?",
+            "for_security": "For security purposes, we've temporarily locked this account. Please try again later or ",
+            "reset_password": "reset your password ",
+            "to_continue": "to continue.",
+            "full_incorrect": "You've entered incorrect sign-in credentials. Did you forget your password?",
+            "full_locked": "For security purposes, we've temporarily locked this account. Please try again later or reset your password to continue.",
+            "no_pi_header": "No cards on file",
+            "no_pi_content": "Looks like you have no cards on file. Please add a credit or debit card to continue with this purchase.",
+            "no_address_header": "No information on file",
+            "no_address_content": "In order to continue, you will need to add a delivery address and then a credit or debit card to complete this purchase.",
+            "reset_password_link_text": "reset your password",
+            "a11y": {
+                "page_title": "Hi there. Sign in to your Visa Checkout account to get started."
+            },
+            "remember_me_learn_more": "Help us remember you by saving your email or mobile number. Now, every time you check out, we'll remember you and your favorite cards on this device. Simply enter your password when signing in.",
+            "remember_me_learn_more_2": "Visa Checkout will display your credit or debit card design, providing you with a more personalized shopping experience."
+        },
+        "three_ds": {
+            "authenticating": "Your card is currently being authenticated by your bank.",
+            "a11y": {
+                "page_title": "Visa Checkout, for your protection your financial institution is requesting your Consumer Authentication password."
+            }
+        },
+        "step_info": {
+            "delivery_address": {
+                "top_line": "Next: Enter your card details.",
+                "bottom_line": "Don't worry, you can make changes at any time."
+            },
+            "add_card": {
+                "top_line": "Next: Review and confirm your information.",
+                "bottom_line": "You'll be able to make any necessary changes there."
+            },
+            "review": {
+                "left": "You'll return to ",
+                "left_continue": "Return to ",
+                "left_pay": "This will complete your purchase to ",
+                "merchant_name": "__merchantName__",
+                "merchant_name_replacement": "merchant site",
+                "right": " to complete your purchase.",
+                "right_continue": " to complete your purchase.",
+                "right_pay": "."
+            },
+            "review_create_account": {
+                "top_line": "First, you'll create a Visa Checkout account.",
+                "bottom_line_left": "Then you'll complete your purchase at ",
+                "bottom_line_right": "."
+            },
+            "three_ds": {
+                "legal_visa": "This card is enrolled in Verified by Visa. For your protection, your financial institution is requesting your Consumer Authentication password before you can continue.",
+                "legal_mc": "This card is enrolled in MasterCard® SecureCode™. For your protection, your financial institution is requesting your Consumer Authentication password before you can continue."
+            }
+        },
+        "session_about_to_expire": {
+            "header": "Your session's about to expire",
+            "subtext": "Select how you'd like to proceed below.",
+            "continue_session_button": "Continue Session",
+            "close_button": "Close"
+        },
+        "session_expired": {
+            "header": "Your session has expired",
+            "subtext": "For your security, your session has expired due to inactivity. To continue, please sign in to your Visa Checkout account again to start a new session.",
+            "sign_in_button": "Go to Sign In",
+            "continue_button": "Continue",
+            "close_button": "Close"
+        },
+        "speed_bump": {
+            "header": "Service is unavailable",
+            "subtext": "We're sorry, something unexpected has occurred and your session has ended. Please sign in again.",
+            "signin_button": "Sign In",
+            "close_button": "Close",
+            "account_locked": "Account locked",
+            "locked_pfx": "For security purposes, we've locked this account. Please contact",
+            "customer_support": "Customer Support",
+            "locked_sfx": "to resolve this.",
+            "three_ds": {
+                "verify": "Could not verify",
+                "prefix": "Sorry, your financial institution was unable to authenticate your ",
+                "center": "card...",
+                "post_add": ". For your security, you'll need to add a new card to continue with this purchase.",
+                "post_change": ". For your security, please use another card you have on file to continue with this purchase.",
+                "button": {
+                    "add_card": "Add a New Card",
+                    "change_card": "Use Another Card"
+                }
+            }
+        },
+        "account_locked": {
+            "subtext": "For security purposes, we've temporarily locked this account. Please try again later."
+        },
+        "review": {
+            "add": "Add",
+            "confirm_acct": "Confirm account details then create a password.",
+            "contact_details": "Order contact details",
+            "continue": "Continue",
+            "create_and_continue": "Create Account and Continue",
+            "create_password": "Create Password",
+            "delivery_address": "Delivery Address",
+            "edit": "Edit",
+            "hide_password": "Hide",
+            "password_minimum": "Minimum 6 characters",
+            "pay_with": "Pay With",
+            "card_details": "Card Details",
+            "sign_up": "Sign up with Visa Checkout",
+            "warning": "(uncheck if you're on a public computer)",
+            "save_info": "Save my information with Visa Checkout",
+            "sign_up_and_continue": "Sign Up & Continue",
+            "show_password": "Show",
+            "total": "Total",
+            "usd_symbol": "$",
+            "place_order": "Place Order",
+            "email": "Sign in with",
+            "email_field": "Email",
+            "country": "Country",
+            "sign_up_learn_more": "For the fastest checkout experience, we’ll save your email address on this device when you create an account. The next time you check out, you’ll simply enter your password. That’s it!",
+            "a11y": {
+                "page_title": "Visa Checkout, Review and confirm your payment and delivery address details",
+                "add_card": "Add a new card",
+                "edit_card": "Edit this card",
+                "add_address": "Add a new address",
+                "edit_address": "Edit this address",
+                "edit_account_details": "Edit account details",
+                "card_voice_over": "__nickName__. Last four digits: __lastFourDigits__. Expiration date: __expiry__. Billing address: __ba__."
+            },
+            "errors": {
+                "invalid_shipping_country": "This merchant does not deliver to __country__.",
+                "invalid_password0": "Password must repeat the same character 3 times.",
+                "invalid_password1": "Password must not be the same as 5 consecutive characters of the account name."
+            },
+            "cpf": {
+                "input_placeholder": "CPF",
+                "learnMoreCPF": "Required by the merchant to process this transaction."
+            }
+        },
+        "address_crud": {
+            "not_found": {
+                "add_address": "Add Address",
+                "edit_address": "Edit Address",
+                "description": "Looks like we couldn't verify the address you entered with the postal service. Would you like to add it anyway?"
+            }
+        },
+        "intercept": {
+            "non_roman_keyboard_header": "Please Confirm",
+            "non_roman_keyboard_content": "You must use __ACTION__. Visa Checkout currently doesn’t allow any other characters to be used.",
+            "non_roman_keyboard_content_bold": "Roman characters only",
+            "non_roman_keyboard_button": "Confirm and Continue"
+        },
+        "otp": {
+            "invalid_password_reset_code": "Invalid password reset code",
+            "valid_password_reset_code": "Password reset code confirmed!",
+            "password_reset_success": "Your password has been updated successfully."
+        }
+    },
+    "spinner": {
+        "loading": "Processing request"
+    },
+    "view_input_field": {
+        "characters_left": "Characters left",
+        "clear": {
+            "name": "Clear",
+            "generic_field_label": "Field"
+        },
+        "autocomplete_options_available": "One or more suggestions are available, Use up or down arrows to select"
+    },
+    "view_input": {
+        "expiry_placeholder": "MM / YY"
+    },
+    "learn-more": {
+        "close": "Close",
+        "collapsed_panel": "Learn more",
+        "close_panel": "Close learn more panel",
+        "more_info": "More Info",
+        "learn_more": "Learn more"
+    },
+    "locale": {
+        "country": {
+            "Argentina": "Argentina",
+            "China": "China",
+            "Peru": "Peru",
+            "Australia": "Australia",
+            "Colombia": "Colombia",
+            "SouthAfrica": "South Africa",
+            "Brazil": "Brazil",
+            "HongKong": "Hong Kong",
+            "UAE": "United Arab Emirates",
+            "Canada": "Canada",
+            "Mexico": "Mexico",
+            "USA": "United States of America",
+            "Chile": "Chile",
+            "NewZealand": "New Zealand",
+            "Singapore": "Singapore",
+            "Malaysia": "Malaysia",
+            "UnitedKingdom": "United Kingdom",
+            "Ireland": "Ireland",
+            "Gibraltar": "Gibraltar",
+            "France": "France",
+            "India": "India",
+            "Poland": "Poland",
+            "Spain": "Spain",
+            "SaudiArabia": "Saudi Arabia",
+            "Ukraine": "Ukraine",
+            "DominicanRepublic": "Dominican Republic",
+            "Taiwan": "Taiwan",
+            "Kuwait": "Kuwait",
+            "Thailand": "Thailand",
+            "Guatemala": "Guatemala",
+            "SouthKorea": "South Korea",
+            "Japan": "Japan"
+        }
+    },
+    "view-page": {
+        "lower_environment_warning": "NOT FOR CONSUMER USE! - __env__ TEST ENVIRONMENT"
+    },
+    "createAccount": {
+        "password": {
+            "show": "Show",
+            "hide": "Hide",
+            "aria_show": "Show password characters",
+            "aria_hide": "Hide password characters",
+            "helperText": "Minimum 6 Characters"
+        },
+        "legal": {
+            "native": {
+                "tos_link": "Terms of Service",
+                "privacy_link": "Privacy Policy",
+                "communication_policy_link": "Electronic Communication Policy",
+                "disclaimer": "By creating an account, you agree to Visa Checkout's __TosLink__ and __PrivacyLink__. You also accept Visa Checkout's __CommunicationPolicyLink__, and agree to receive account notices via email or electronically instead of by mail."
+            }
+        }
+    }
+}
