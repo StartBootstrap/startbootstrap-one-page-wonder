@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2">
+<file original="D:\texte\sonstiges\www.heartsome.de\de\team_waldhoer.php" source-language="de" datatype="PHP2XLIFF">
+<header>
+<phase-group>
+<phase phase-name="1" process-name="pre-process" company-name="Araya" tool="PHP2XLIFF version 2.0" date="Wed Dec 13 17:07:31 CET 2006" />
+<phase phase-name="2" process-name="Segmentation" company-name="Araya" tool="SEGMENTER version 2.0" date="Wed Dec 13 17:07:31 CET 2006" />
+</phase-group>
+   <skl>
+      <external-file href="D:\texte\sonstiges\www.heartsome.de\de\team_waldhoer.php.skl"/>
+   </skl>
+   <prop-group name="encoding"><prop prop-type="encoding" >ISO-8859-15</prop></prop-group>
+</header>
+<body>
+   <trans-unit id="0" xml:space="preserve" approved="no">
+      <source xml:lang="de">Dr. Klemens Waldhör ＜ Team ＜ Tourismus Research Center Krems</source>
+   </trans-unit>
+   <trans-unit id="1" xml:space="preserve" approved="no">
+      <source xml:lang="de"><ph id="0"><img class="face" src="../img/face/klemens_waldhoer.jpg" alt="</ph>Dr. Klemens Waldhör<ph id="1">" /></ph></source>
+   </trans-unit>
+   <trans-unit id="2" xml:space="preserve" approved="no">
+      <source xml:lang="de"> Dr. Klemens Waldhör</source>
+   </trans-unit>
+   <trans-unit id="3" xml:space="preserve" approved="no">
+      <source xml:lang="de">Ausbildung und Berufslaufbahn</source>
+   </trans-unit>
+   <trans-unit id="4" xml:space="preserve" approved="no">
+      <source xml:lang="de">15.05.1980-28.02.1984 Studienassistent am Inst. für Psychologie u. Pädagogik, Abt. f. Sozial- u. Wirtschaftspsychologie, Universität Linz</source>
+   </trans-unit>
+   <trans-unit id="5" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.03.1984-31.08.1986 Universitätsassistent am obigen Institut</source>
+   </trans-unit>
+   <trans-unit id="6" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.09.1986-01.05.1990 wissenschaftlicher Mitarbeiter bei TA Triumph Adler AG - Bereich TA Forschung in Nürnberg</source>
+   </trans-unit>
+   <trans-unit id="7" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.05.1990-15.02.1992 Referent in der TA Forschung</source>
+   </trans-unit>
+   <trans-unit id="8" xml:space="preserve" approved="no">
+      <source xml:lang="de">15.02.1992-01.01.1993 Gruppenleiter "Electronic Dictionaries" in der Abteilung "Electronic Writing"</source>
+   </trans-unit>
+   <trans-unit id="9" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.01.1993-30.06.1993 Manager Software Development im TA Profit-Center "Electronic Publishing"</source>
+   </trans-unit>
+   <trans-unit id="10" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.07.1993 Gründungsgesellschafter der TA Electronic Publishing Partners GmbH (1996 umbenannt in: EP Electronic Publishing Partners GmbH)</source>
+   </trans-unit>
+   <trans-unit id="11" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.07.1993-31.12.1998 Geschäftsführer der EP Electronic Publishing Partners GmbH</source>
+   </trans-unit>
+   <trans-unit id="12" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.01.1999-30.06.2001 Alleingeschäftsführer der EP Electronic Publishing Partners GmbH</source>
+   </trans-unit>
+   <trans-unit id="13" xml:space="preserve" approved="no">
+      <source xml:lang="de">30.06.1999 Verkauf der EP Electronic Publishing Partners GmbH an ALPNET Inc., USA und Umbenennung in: ALPNET Technology GmbH</source>
+   </trans-unit>
+   <trans-unit id="14" xml:space="preserve" approved="no">
+      <source xml:lang="de">30.06.1999-30.06.2001 Director of Technology im ALPNET Konzern</source>
+   </trans-unit>
+   <trans-unit id="15" xml:space="preserve" approved="no">
+      <source xml:lang="de">30.06.2001-01.10.2002 Sprachtechnologie und Software Engineering Berater</source>
+   </trans-unit>
+   <trans-unit id="16" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.10.2002 Geschäftsführer Heartsome Europe GmbH</source>
+   </trans-unit>
+   <trans-unit id="17" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.10.2002-20.09.2004 CTO (Chief Technology Officer) and Director Heartsome PTE Ltd., Singapore</source>
+   </trans-unit>
+   <trans-unit id="18" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.04.2004 Wissenschaftlicher Leiter und Geschäftsführer des Tourismus Research Center Krems GesmbH in Krems, Österreich</source>
+   </trans-unit>
+   <trans-unit id="19" xml:space="preserve" approved="no">
+      <source xml:lang="de">01.10.2004 Trennung der Heartsome Europe GmbH von der Heartsome PTE Ltd., Singapur und Übernahme der Geschäftsanteile der PTE</source>
+   </trans-unit>
+   <trans-unit id="20" xml:space="preserve" approved="no">
+      <source xml:lang="de">Seit 2005: Lehrveranstaltung „Product Development and New Technologies“ an der FH IMC Krems im Studiengang Tourismus- und Freizeitmanagement</source>
+   </trans-unit>
+   <trans-unit id="21" xml:space="preserve" approved="no">
+      <source xml:lang="de">Zusatzinfo</source>
+   </trans-unit>
+   <trans-unit id="22" xml:space="preserve" approved="no">
+      <source xml:lang="de">Projektleitung von wie EU Forschungsprojekten</source>
+   </trans-unit>
+   <trans-unit id="23" xml:space="preserve" approved="no">
+      <source xml:lang="de">Multilex (Standardisierung von Lexika auf SGML Basis)</source>
+   </trans-unit>
+   <trans-unit id="24" xml:space="preserve" approved="no">
+      <source xml:lang="de">TransAccount (Maschinelles Übersetzung von Bilanzen)</source>
+   </trans-unit>
+   <trans-unit id="25" xml:space="preserve" approved="no">
+      <source xml:lang="de">Otelo (Standardisierung von Austauschformaten für Sprachprodukte wie maschinelle Übersetzung, Translation Memories, Terminologie)</source>
+   </trans-unit>
+   <trans-unit id="26" xml:space="preserve" approved="no">
+      <source xml:lang="de">Value ("Electronic Publishing Tools for Dictionaries in Multilexformat)</source>
+   </trans-unit>
+   <trans-unit id="27" xml:space="preserve" approved="no">
+      <source xml:lang="de">AIF-Projekt: Multilinguale und -mediale Informationspräsentations- und Retrievalstation</source>
+   </trans-unit>
+   <trans-unit id="28" xml:space="preserve" approved="no">
+      <source xml:lang="de">Projekte</source>
+   </trans-unit>
+   <trans-unit id="29" xml:space="preserve" approved="no">
+      <source xml:lang="de">Projektleitung EURAMIS - Design und Entwicklung eines Übersetzungsunterstützungssystems für den Übersetzungsdienst der Europäischen Kommission; 1995 - 2000</source>
+   </trans-unit>
+   <trans-unit id="30" xml:space="preserve" approved="no">
+      <source xml:lang="de">Design und Projektmanagement von CD- und Web-Projekten der Beleke-Verlagsgruppe ("Gewusst-wo" auf CD-ROM und Internet, "Who-is-Who in Deutschland", "Polizeihandbuch", Zeitschrift "Der Kinderarzt" im Internet)</source>
+   </trans-unit>
+   <trans-unit id="31" xml:space="preserve" approved="no">
+      <source xml:lang="de">Projektleiter "Elektronische Wörterbücher" für diverse Plattformen</source>
+   </trans-unit>
+   <trans-unit id="32" xml:space="preserve" approved="no">
+      <source xml:lang="de">Mitarbeit und Teilprojektleitung im KI-Projekt "WISDOM" - 1986-2002</source>
+   </trans-unit>
+   <trans-unit id="33" xml:space="preserve" approved="no">
+      <source xml:lang="de">Inhaltliche Tätigkeiten</source>
+   </trans-unit>
+   <trans-unit id="34" xml:space="preserve" approved="no">
+      <source xml:lang="de">eTourismus: Innovationen im Tourismus und der Hotellerie, Wertschöpfungsanalyse, CMS im Tourismus, Sprachtechnologie im Tourismus</source>
+   </trans-unit>
+   <trans-unit id="35" xml:space="preserve" approved="no">
+      <source xml:lang="de">Entwurf von Übersetzungsunterstützungssystemen und XML basierten Dokumentenmanagementsystemen</source>
+   </trans-unit>
+   <trans-unit id="36" xml:space="preserve" approved="no">
+      <source xml:lang="de">Mensch-Maschine-Interaktion / Benutzerschnittstellen</source>
+   </trans-unit>
+   <trans-unit id="37" xml:space="preserve" approved="no">
+      <source xml:lang="de">Entwicklung wissensbasierter Softwarearchitekturen</source>
+   </trans-unit>
+   <trans-unit id="38" xml:space="preserve" approved="no">
+      <source xml:lang="de">Wissensbasierte Systeme für Mensch-Maschine-Schnittstellen (Blackboard-Architekturen, Produktionsregelsysteme)</source>
+   </trans-unit>
+   <trans-unit id="39" xml:space="preserve" approved="no">
+      <source xml:lang="de">Wissensbasierte Systeme im Bürobereich</source>
+   </trans-unit>
+   <trans-unit id="40" xml:space="preserve" approved="no">
+      <source xml:lang="de">Erklärungskomponenten für wissensbasierte Systeme</source>
+   </trans-unit>
+   <trans-unit id="41" xml:space="preserve" approved="no">
+      <source xml:lang="de">Anwendung von Erklärungstechniken in Bankexpertensystemen</source>
+   </trans-unit>
+   <trans-unit id="42" xml:space="preserve" approved="no">
+      <source xml:lang="de">Computermodelle zur Gruppenentscheidung (Dissertation)</source>
+   </trans-unit>
+   <trans-unit id="43" xml:space="preserve" approved="no">
+      <source xml:lang="de">Entwicklung und Implementierung von Software für psycho-physiologische Messungen</source>
+   </trans-unit>
+   <trans-unit id="44" xml:space="preserve" approved="no">
+      <source xml:lang="de">Entwicklung von Programmiersprachen für psychologische (und sozialwissenschaftliche) Experimente</source>
+   </trans-unit>
+   <trans-unit id="45" xml:space="preserve" approved="no">
+      <source xml:lang="de">Anwendungsmöglichkeiten mathematischer und KI-Modelle in der Psychologie und beim Gruppenproblemlösen</source>
+   </trans-unit>
+</body>
+</file>
+</xliff>
+ 
