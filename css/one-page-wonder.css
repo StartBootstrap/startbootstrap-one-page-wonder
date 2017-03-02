@@ -23,7 +23,13 @@ header {
 }
 
 header > .overlay {
-    padding: 10rem 0;
+    padding: 5rem 0;
     text-align: center;
     background: rgba(0,0,0,0.6);
+}
+
+@media (min-width: 992px) {
+    header > .overlay {
+        padding: 10rem 0;
+    }
 }
