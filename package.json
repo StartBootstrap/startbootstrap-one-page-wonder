@@ -1,0 +1,15 @@
+{
+    "name": "startbootstrap-one-page-wonder",
+    "title": "One Page Wonder",
+    "version": "4.0.0-alpha",
+    "homepage": "http://startbootstrap.com/template-overviews/one-page-wonder",
+    "author": "Start Bootstrap",
+    "license": {
+        "type": "MIT",
+        "url": "https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git"
+    }
+}
