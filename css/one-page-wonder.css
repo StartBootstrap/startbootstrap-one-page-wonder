@@ -1,7 +1,7 @@
-/*
- * Start Bootstrap - One Page Wonder (http://startbootstrap.com/)
+/*!
+ * Start Bootstrap - One Page Wonder (http://startbootstrap.com/template-overviews/one-page-wonder)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
  */
 
 body {
@@ -14,7 +14,7 @@ body {
     }
 }
 
-header {
+header.masthead {
     background: url('https://unsplash.it/1900/1080?image=304') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,14 +22,14 @@ header {
     -o-background-size: cover;
 }
 
-header > .overlay {
+header.masthead > .overlay {
     padding: 5rem 0;
     text-align: center;
-    background: rgba(0,0,0,0.6);
+    background: rgba(0, 0, 0, 0.6);
 }
 
 @media (min-width: 992px) {
-    header > .overlay {
+    header.masthead > .overlay {
         padding: 10rem 0;
     }
 }
