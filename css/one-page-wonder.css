@@ -3,11 +3,25 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+/* colors
+$color1: hsla(79%, 93%, 6%, 1);
+$color2: hsla(105%, 10%, 32%, 1);
+$color3: hsla(63%, 27%, 50%, 1);
+$color4: hsla(74%, 13%, 62%, 1);
+$color5: hsla(29%, 13%, 42%, 1);
+*/
 
 body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
+.navbar-inverse {
+    background: hsla(79%, 93%, 6%, 1);
+}
 
+.text-muted {
+    color: hsla(63%, 27%, 50%, 1);
+}
+    
 .header-image {
     display: block;
     width: 100%;
@@ -53,6 +67,7 @@ body {
 
 .featurette-heading {
     font-size: 50px;
+    color: hsla(105%, 10%, 32%, 1);
 }
 
 footer {
