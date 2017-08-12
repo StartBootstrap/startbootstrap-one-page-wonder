@@ -28,10 +28,10 @@
     "dependencies": {
         "bootstrap": "^4.0.0-alpha.6",
         "jquery": "^3.2.1",
-        "tether": "^1.4.0"
+        "popper.js": "^1.11.1"
     },
     "devDependencies": {
-        "browser-sync": "^2.18.8",
+        "browser-sync": "2.18.13",
         "gulp": "^3.9.1"
     }
 }
