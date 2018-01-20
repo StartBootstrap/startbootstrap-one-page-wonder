@@ -1,10 +1,10 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
-var cleanCSS = require('gulp-clean-css');
 var header = require('gulp-header');
+var cleanCSS = require('gulp-clean-css');
 var rename = require("gulp-rename");
-var browserSync = require('browser-sync').create();
 var pkg = require('./package.json');
+var browserSync = require('browser-sync').create();
 
 // Set the banner content
 var banner = ['/*!\n',
@@ -15,19 +15,25 @@ var banner = ['/*!\n',
   ''
 ].join('');
 
-// Copy vendor files from /node_modules into /vendor
-gulp.task('copy', function() {
-  gulp.src([
-      'node_modules/bootstrap/dist/**/*',
-      '!**/npm.js',
-      '!**/bootstrap-theme.*',
-      '!**/*.map'
-    ])
-    .pipe(gulp.dest('vendor/bootstrap'))
+// Copy third party libraries from /node_modules into /vendor
+gulp.task('vendor', function() {
 
-  gulp.src(['node_modules/jquery/dist/jquery.js', 'node_modules/jquery/dist/jquery.min.js'])
-    .pipe(gulp.dest('vendor/jquery'))
-})
+  // Bootstrap
+  gulp.src([
+      './node_modules/bootstrap/dist/**/*',
+      '!./node_modules/bootstrap/dist/css/bootstrap-grid*',
+      '!./node_modules/bootstrap/dist/css/bootstrap-reboot*'
+    ])
+    .pipe(gulp.dest('./vendor/bootstrap'))
+
+  // jQuery
+  gulp.src([
+      './node_modules/jquery/dist/*',
+      '!./node_modules/jquery/dist/core.js'
+    ])
+    .pipe(gulp.dest('./vendor/jquery'))
+
+});
 
 // Compile SCSS
 gulp.task('css:compile', function() {
@@ -35,9 +41,6 @@ gulp.task('css:compile', function() {
     .pipe(sass.sync({
       outputStyle: 'expanded'
     }).on('error', sass.logError))
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
     .pipe(gulp.dest('./css'))
 });
 
@@ -59,7 +62,7 @@ gulp.task('css:minify', ['css:compile'], function() {
 gulp.task('css', ['css:compile', 'css:minify']);
 
 // Default task
-gulp.task('default', ['css', 'copy']);
+gulp.task('default', ['css', 'vendor']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
@@ -70,9 +73,8 @@ gulp.task('browserSync', function() {
   });
 });
 
-// Watch task
+// Dev task
 gulp.task('dev', ['css', 'browserSync'], function() {
   gulp.watch('./scss/*.scss', ['css']);
-  // Reloads the browser whenever HTML files change
-  gulp.watch('*.html', browserSync.reload);
+  gulp.watch('./*.html', browserSync.reload);
 });
