@@ -3,16 +3,6 @@
   font-weight: 800 !important;
 }
 
-@mixin subheading-font {
-  font-family: 'Raleway';
-  font-size: 48px;
-  font-weight: 100;
-  display: block;
-  text-align: center;
-  text-size-adjust: 100%;
-  text-transform: uppercase;
-}
-
 @mixin body-font {
   font-family: 'Lato';
 }

@@ -1,10 +1,9 @@
 header.masthead {
   position: relative;
   overflow: hidden;
-  padding-top: calc(0.5rem + 72px);
-  // padding-top: 7%;
-  padding-bottom: 0.5rem;
-  // background: linear-gradient(0deg, $secondary 0%, $primary 100%);
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: linear-gradient(0deg, $secondary 0%, $primary 100%);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -53,9 +52,8 @@ header.masthead {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(5rem + 55px);
-    // padding-top: 7%;
-    // padding-bottom: 10rem;
+    padding-top: calc(10rem + 55px);
+    padding-bottom: 10rem;
     .masthead-content {
       .masthead-heading {
         font-size: 6rem;

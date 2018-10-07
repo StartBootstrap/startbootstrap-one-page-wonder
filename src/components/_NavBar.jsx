@@ -27,18 +27,15 @@ export default class _NavBar extends React.Component {
         return (
             <Navbar className="navbar-custom "dark="true" expand="lg" fixed="top">
                 <Container>
-                    <NavbarBrand href="/" className="">The Little Lash Lab</NavbarBrand>
+                    <NavbarBrand href="/" className="">Start Bootstrap</NavbarBrand>
                     <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
                     <Collapse isOpen={!this.state.collapsed} navbar>
                         <Nav className="" navbar>
                             <NavItem>
-                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/pricing">Pricing</NavLink>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/#">SIGN UP</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/contact">Contact</NavLink>
-                            </NavItem>
-                            <NavItem>
-                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/faq">Faq</NavLink>
+                                <NavLink onClick={this.closeNavbar} className="nav-NavLink" href="/#">LOG IN</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
