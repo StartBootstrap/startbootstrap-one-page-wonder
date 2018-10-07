@@ -23,7 +23,7 @@ export default class Home extends React.Component {
                     img={Img2}
                 />
                 <_Post 
-                    header="This should change!"
+                    header="Let there be rock!"
                     paragraph="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati."
                     img={Img3}
                 />
