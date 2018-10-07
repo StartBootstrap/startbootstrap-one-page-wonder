@@ -1,0 +1,10 @@
+export { default as _Contact } from './page/_Contact';
+export { default as _Faq } from './page/_Faq';
+export { default as _Footer } from './layout/_Footer';
+export { default as _Header } from './layout/_Header';
+export { default as _NavBar } from './_NavBar';
+export { default as PriceList } from './PriceList';
+export { default as _Post } from './_Post';
+export { default as _Router } from './_Router';
+export { default as _Price } from './page/_Price';
+export { default as ContactIcons } from "./Contact-Icons";
