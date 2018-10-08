@@ -1,15 +1,16 @@
 {
     "title": "One Page Wonder",
-    "name": "startbootstrap-one-page-wonder",
-    "version": "5.0.0",
-    "description": "A one page HTML template built with Bootstrap",
+    "name": "startreactstrap-one-page-wonder",
+    "version": "1.0.0",
+    "description": "A one page HTML template built with Bootstrap & React",
     "keywords": [
         "css",
         "sass",
         "html",
         "responsive",
         "theme",
-        "template"
+        "template",
+        "react"
     ],
     "homepage": "https://startbootstrap.com/template-overviews/one-page-wonder",
     "bugs": {
@@ -17,17 +18,31 @@
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
+    "author": "Start Reactstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Ethan Hurst (https://ethan.hurst.co.nz/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git"
+        "url": "https://github.com/HurstyByDesignLtd/startbootstrap-one-page-wonder"
     },
     "dependencies": {
         "bootstrap": "4.1.3",
-        "jquery": "3.3.1"
+        "jquery": "3.3.1",
+        "react": "^16.5.2",
+        "react-app-rewire-scss": "^1.0.2",
+        "react-app-rewired": "^1.6.2",
+        "react-dom": "^16.5.2",
+        "react-router": "^4.3.1",
+        "react-router-dom": "^4.3.1",
+        "react-scripts": "^1.1.5"
+    },
+    "scripts": {
+      "start": "react-app-rewired start --scripts-version react-scripts",
+      "build": "rimraf build && react-app-rewired build --scripts-version react-scripts",
+      "test": "react-app-rewired test --scripts-version react-scripts --env=jsdom",
+      "eject": "react-scripts eject"
     },
     "devDependencies": {
         "browser-sync": "2.24.7",
@@ -36,6 +51,11 @@
         "gulp-clean-css": "3.10.0",
         "gulp-header": "2.0.5",
         "gulp-rename": "1.4.0",
-        "gulp-sass": "4.0.1"
+        "gulp-sass": "4.0.1",
+        "react-social-icons": "^3.0.0",
+        "reactstrap": "^6.4.0",
+        "rimraf": "^2.6.2",
+        "sass-loader": "^7.1.0",
+        "webpack": "^4.20.2"
     }
 }
