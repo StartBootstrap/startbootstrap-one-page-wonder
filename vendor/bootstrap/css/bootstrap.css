@@ -481,6 +481,11 @@ mark,
   height: auto;
 }
 
+.img-Avatar {
+  max-width: 5%;
+  height: auto;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -6704,7 +6709,7 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 50% !important;
+  border-radius: 10% !important;
 }
 
 .rounded-pill {
