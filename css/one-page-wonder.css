@@ -59,7 +59,7 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: url(/img/cover3.jpg);
+  background: url(img/cover3.jpg);
   background-size: cover;
 }
 
