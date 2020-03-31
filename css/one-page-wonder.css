@@ -19,7 +19,7 @@ h6 {
 }
 
 .btn-xl {
-  text-transform: uppercase;
+  text-transform: lowercase;
   padding: 1.5rem 3rem;
   font-size: 0.9rem;
   font-weight: 700;
@@ -41,14 +41,14 @@ h6 {
 }
 
 .navbar-custom .navbar-brand {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 1rem;
   letter-spacing: 0.1rem;
   font-weight: 700;
 }
 
 .navbar-custom .navbar-nav .nav-item .nav-link {
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: 0.8rem;
   font-weight: 700;
   letter-spacing: 0.1rem;
