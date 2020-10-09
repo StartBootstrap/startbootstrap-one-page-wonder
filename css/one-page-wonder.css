@@ -158,11 +158,3 @@ header.masthead .bg-circle-4 {
 .btn-secondary:focus {
   box-shadow: 0 0 0 0.2rem rgba(255, 106, 0, 0.5);
 }
-
-.picture {
-  position:relative;
-    max-width:100%;
-    max-height:100%;
-    margin-top:-50%;
-    margin-left:-50%;
-}
